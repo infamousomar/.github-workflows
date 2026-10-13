@@ -8,11 +8,11 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: check code
-        uses: actions/checkout@v4
+          uses: actions/checkout@v4
         - name: print my name
-        run: echo "my name is omar" 
+          run: echo "my name is omar" 
             
         - name: print my id
-        run: echo "my id is 241000300"
+          run: echo "my id is 241000300"
               
    
