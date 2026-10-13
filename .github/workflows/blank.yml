@@ -7,7 +7,7 @@ on:
     jobs:
          print-message:
              runs-on:ubuntu-lastest
-             steps:
+                steps:
                   - name: check code
                     uses: actions/checkout@v4
 
