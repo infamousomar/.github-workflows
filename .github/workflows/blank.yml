@@ -2,19 +2,17 @@ name: do action workflow
 
 on:
     push:
-         branches [ main, master ]
-         
-    jobs:
-         print-message:
-             runs-on:ubuntu-lastest
-                steps:
-                  - name: check code
-                    uses: actions/checkout@v4
-
-                  - name: print my name
-                    run: echo "my name is omar"
-                    
-                  - name: print my id
-                    run: echo "my id is 241000300"
+         branches: [ main, master ]
+jobs:
+    print-message:
+        runs-on: ubuntu-latest
+        steps:
+        - name: check code
+        uses: actions/checkout@v4
+        - name: print my name
+        run: echo "my name is omar" 
+            
+        - name: print my id
+        run: echo "my id is 241000300"
               
    
